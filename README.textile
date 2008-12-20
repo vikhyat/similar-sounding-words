@@ -4,7 +4,7 @@ README
 If you want this to function for a language other than English, you'll need to download a dictionary for it. Any '.dic' file from http://wiki.services.openoffice.org/wiki/Dictionaries should work. Open setup.rb, change en_US.dic to whatever is appropriate for the file you downloaded, and then rub setup.rb(you need to have ruby installed)
 
 You can call the script using the following parameters.
-_main.rb -word- -levenshtein threshold-_
+_main.rb *word* *levenshtein threshold*_
 
 TO DO LIST 
 ---
