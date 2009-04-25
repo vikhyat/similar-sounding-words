@@ -1,7 +1,46 @@
-README
+Similar Sounding Words
 ---
 
-If you want this to function for a language other than English, you'll need to download a dictionary for it. Any '.dic' file from http://wiki.services.openoffice.org/wiki/Dictionaries should work. Open setup.rb, change en_US.dic to whatever is appropriate for the file you downloaded, and then run setup.rb.
+The name's rather unimaginative, and this project does just what it says.
 
-You can call the script using the following parameters.
-@main.rb *word* *levenshtein-threshold*@
+When it is given the word color, this is what it gives back:
+collar
+coaler
+choler
+cooler
+caller
+cholera
+cellar
+collier
+celery
+calorie
+clear
+culler
+Clari
+Clary
+clawer
+chiller
+colliery
+Collier
+Clare
+Clair
+Clara
+Clarie
+Clarey
+clayier
+Claire
+clearway
+
+Rather nice, eh?
+
+Dictionaries
+---
+If you want this to use some other word list, you'll need to download a dictionary for it. Any '.dic' file from http://wiki.services.openoffice.org/wiki/Dictionaries should work. Open setup.rb, change en_US.dic to whatever is appropriate for the file you downloaded, and then run setup.rb. 
+
+You could also create your own dictionary file. Just put each word on a new line. Anything after a '/' is ignored.
+
+
+Credits
+---
+The Levenshtein calculation code was by Paul Battley and taken from here: http://po-ru.com/files/levenshtein.rb
+The Soundex Calculation was from here: http://snippets.dzone.com/posts/show/4530
