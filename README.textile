@@ -3,33 +3,7 @@ Similar Sounding Words
 
 The name's rather unimaginative, and this project does just what it says.
 
-When it is given the word color, this is what it gives back:
-collar
-coaler
-choler
-cooler
-caller
-cholera
-cellar
-collier
-celery
-calorie
-clear
-culler
-Clari
-Clary
-clawer
-chiller
-colliery
-Collier
-Clare
-Clair
-Clara
-Clarie
-Clarey
-clayier
-Claire
-clearway
+When it is given the word color, this is what it gives back: @collar coaler choler cooler caller cholera cellar collier celery calorie clear culler Clari Clary clawer chiller colliery Collier Clare Clair Clara Clarie Clarey clayier Claire clearway@
 
 Rather nice, eh?
 
@@ -43,4 +17,5 @@ You could also create your own dictionary file. Just put each word on a new line
 Credits
 ---
 The Levenshtein calculation code was by Paul Battley and taken from here: http://po-ru.com/files/levenshtein.rb
+
 The Soundex Calculation was from here: http://snippets.dzone.com/posts/show/4530
