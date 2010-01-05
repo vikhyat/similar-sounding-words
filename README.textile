@@ -6,7 +6,7 @@ Rather nice, eh?
 
 h2. Dictionaries
 
-If you want this to use some other word list, you'll need to download a dictionary for it. Any '.dic' file from http://wiki.services.openoffice.org/wiki/Dictionaries should work. Open setup.rb, change en_US.dic to whatever is appropriate for the file you downloaded, and then run setup.rb. 
+If you want this to use some other word list, you'll need to download a dictionary for it. Any '.dic' file from "http://wiki.services.openoffice.org/wiki/Dictionaries":http://wiki.services.openoffice.org/wiki/Dictionaries should work. Open setup.rb, change en_US.dic to whatever is appropriate for the file you downloaded, and then run setup.rb. 
 
 You could also create your own dictionary file. Just put each word on a new line. Anything after a '/' is ignored.
 
