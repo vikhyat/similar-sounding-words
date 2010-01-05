@@ -13,6 +13,6 @@ You could also create your own dictionary file. Just put each word on a new line
 
 h2. Credits
 
-The Levenshtein calculation code was by Paul Battley and taken from here: http://po-ru.com/files/levenshtein.rb
+The Levenshtein calculation code was by Paul Battley and taken from "here":http://po-ru.com/files/levenshtein.rb
 
-The Soundex Calculation was from here: http://snippets.dzone.com/posts/show/4530
+The Soundex Calculation was from "here":http://snippets.dzone.com/posts/show/4530
