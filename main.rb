@@ -1,5 +1,5 @@
-require 'soundex'
-require 'levenshtein'
+require_relative 'soundex'
+require_relative 'levenshtein'
 
 def load
   File.open('soundex_dictionary.dump') do |line|
